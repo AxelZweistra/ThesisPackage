@@ -1,0 +1,13 @@
+Package: ThesisPackage
+Title: A personal helper package for my thesis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Axel", "Zweistra", , "a.p.zweistra@uu.nl", role = c("aut", "cre"))
+Description: Functions for generating data according to a CLPM, generating RI-CLPM model specifications for Lavaan etc.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+imports:
+  mvtnorm,
+  ggplot2
