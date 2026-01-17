@@ -519,3 +519,16 @@ plot_crosslag_bias <- function(
       ggplot2::geom_hline(yintercept = 0)
   )
 }
+
+#' Function template
+#'
+#' A description of the function
+#'
+#' @param input Declare input parameters
+#'
+#' @return the output
+#' @export
+template <- function(input){
+  output <- input * 2
+  return(output)
+}
